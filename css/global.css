@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --background-color: rgba(255, 255, 255, 0.486);
+}
 
 body {
   padding: 0;
@@ -6,6 +9,7 @@ body {
 }
 section {
   height: 100dvh;
+  max-height: 100dvh;
   margin-inline: 2vw;
   display: flex;
   flex-direction: column;
@@ -33,7 +37,7 @@ h1 {
   margin: 0;
 }
 .content-container {
-  background-color: rgba(255, 255, 255, 0.486);
+  background-color: var(--background-color);
   border-radius: 10px;
   width: 40vh;
   height: 50vh;
