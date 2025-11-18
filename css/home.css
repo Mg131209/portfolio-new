@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgb(72, 152, 164),
+    rgb(221, 246, 255)
+  );
+  background-size: cover;
+  backdrop-filter: blur(100px);
+  background-attachment: fixed;
+}
+.hero {
+  height: 100vh;
+  margin: 0;
+}
+.hero-title {
+  font-size: 5em;
+  margin: 5vw;
+}
+.square {
+  position: relative;
+  background-color: aqua;
+  height: 10dvw;
+  width: 10dvw;
+
+  border-radius: 10px;
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.414);
+}
+
+.triangle-up {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 5dvw solid transparent;
+  border-right: 5dvw solid transparent;
+  border-bottom: 10dvw solid aqua;
+}
+
+#triangle {
+  top: 40vh;
+  margin-left: 80vw;
+}
+
+#square-left {
+  top: 10vh;
+  left: 20vw;
+  animation: square-left-projects linear;
+  animation-timeline: scroll();
+}
+#square-right {
+  top: 20vh;
+  left: 80vw;
+  animation: square-right-projects linear;
+  animation-timeline: scroll();
+}
+
+@keyframes square-left-projects {
+  50% {
+    top: 50vh;
+    left: 70vw;
+    transform: rotate(360deg);
+  }
+  100% {
+    top: 80vh;
+  }
+}
+@keyframes square-right-projects {
+  40% {
+    top: 2vh;
+    transform: rotate(120deg);
+  }
+  50% {
+    top: 2vh;
+    left: 80vw;
+    transform: rotate(120deg);
+  }
+  100% {
+    top: 5vh;
+    left: 10vw;
+    transform: rotate(0deg);
+  }
+}
+:root {
+  --section-count: 2;
+}
