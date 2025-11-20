@@ -6,6 +6,14 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: linear-gradient(
+    45deg,
+    rgb(72, 152, 164),
+    rgb(221, 246, 255)
+  );
+  background-size: cover;
+  backdrop-filter: blur(100px);
+  background-attachment: fixed;
 }
 section {
   height: 100dvh;
@@ -13,7 +21,6 @@ section {
   margin-inline: 2vw;
   display: flex;
   flex-direction: column;
-  
 }
 * {
   font-family: Roboto;
@@ -21,9 +28,8 @@ section {
 }
 ul {
   margin: 0;
-  padding-left: 20px;
 }
-li{
+li {
   font-size: 2em;
 }
 h1 {
@@ -31,12 +37,26 @@ h1 {
   padding-top: 5vh;
   font-size: 5em;
 }
-h2{
+h2 {
   font-size: 3em;
 }
-.box-section{
+button {
+  all: unset;
+  display: flex;
   justify-content: center;
-  
+  background-color: var(--background-color);
+  border-radius: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  width: max-content;
+  height: max-content;
+  padding: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+.box-section {
+  justify-content: center;
 }
 .background {
   position: sticky;
@@ -65,7 +85,4 @@ h2{
 }
 .content li {
   font-size: 2em;
-}
-.section-title {
-  
 }

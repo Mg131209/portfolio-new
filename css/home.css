@@ -1,13 +1,3 @@
-body {
-  background-image: linear-gradient(
-    45deg,
-    rgb(72, 152, 164),
-    rgb(221, 246, 255)
-  );
-  background-size: cover;
-  backdrop-filter: blur(100px);
-  background-attachment: fixed;
-}
 .hero {
   display: flex;
   flex-direction: column;
@@ -82,9 +72,18 @@ body {
     transform: rotate(0deg);
   }
 }
+#portrait-picture {
+  height: 50vh;
+  margin-right: 10vw;
+}
 
 #section-skills {
   justify-content: flex-start;
+}
+.box-section {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
 }
 
 .skills-list {
@@ -144,9 +143,28 @@ body {
   display: none;
 }
 #typescript-logo,
-#html-logo {
+#html-logo,
+#camera-image {
   margin: 1vw;
+}
+#section-resume-container {
+  display: flex;
+  flex-direction: row;
+}
+#section-resume-container .content-container {
+  margin-inline: 10vw;
+  justify-content: space-between;
 }
 #repo-list {
   padding-left: 5vw;
+}
+#section-resume-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#view-more-button {
+  justify-self: center;
+  margin-top: auto;
 }
