@@ -1,0 +1,12 @@
+video {
+  height: 50vw;
+}
+#main-section {
+  display: flex;
+  justify-self: center;
+}
+#video-container {
+  margin-top: 10vh;
+  width: unset;
+  height: unset;
+}

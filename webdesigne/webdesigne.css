@@ -1,0 +1,9 @@
+.content-container {
+  margin-top: 5vh;
+  height: unset;
+  width: unset;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
