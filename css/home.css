@@ -47,29 +47,41 @@
 }
 
 @keyframes square-left-projects {
-  50% {
+  16% {
     top: 50vh;
-    left: 70vw;
+    left: 50vw;
     transform: rotate(360deg);
   }
-  100% {
+  33% {
     top: 80vh;
+  }
+  50% {
+    top: 50vh;
+  }
+  66% {
+    top: 90vh;
   }
 }
 @keyframes square-right-projects {
-  40% {
+  10% {
     top: 2vh;
     transform: rotate(120deg);
   }
-  50% {
+  16% {
     top: 2vh;
     left: 80vw;
     transform: rotate(120deg);
   }
-  100% {
+  33% {
     top: 5vh;
     left: 10vw;
     transform: rotate(0deg);
+  }
+  50% {
+    top: 80vh;
+  }
+  66% {
+    top: 90vh;
   }
 }
 #portrait-picture {
@@ -101,6 +113,10 @@
   #section-skills .content-title {
     font-size: 10vw;
   }
+}
+#project-container {
+  margin-bottom: auto;
+  margin-left: auto;
 }
 .skill-element {
   margin: 2vh;
