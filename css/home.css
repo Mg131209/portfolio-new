@@ -1,3 +1,10 @@
+body {
+  padding: 0;
+}
+section {
+  height: 100dvh;
+  max-height: 100dvh;
+}
 .hero {
   display: flex;
   flex-direction: column;
@@ -180,7 +187,7 @@
 #repo-list {
   padding-left: 5vw;
 }
-#section-resume-2 {
+#section-more {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -188,8 +195,6 @@
 }
 #vie-more-button {
   justify-self: center;
-  margin-top: auto;
-  margin-inline: 5vw;
 }
 
 @media (max-width: 850px) {
