@@ -16,8 +16,6 @@ body {
   background-attachment: fixed;
 }
 section {
-  height: 100dvh;
-  max-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
@@ -91,4 +89,10 @@ button:hover {
 }
 .content li {
   font-size: 2em;
+}
+.back-button {
+  margin: 5vh;
+  width: 20vh;
+  align-self: center;
+  justify-self: center;
 }
