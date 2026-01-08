@@ -19,8 +19,8 @@ section {
 .square {
   position: relative;
   background-color: aqua;
-  height: 10dvw;
-  width: 10dvw;
+  height: 10vh;
+  width: 10vh;
 
   border-radius: 10px;
   box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.414);
@@ -51,6 +51,10 @@ section {
   left: 80vw;
   animation: square-right-projects linear;
   animation-timeline: scroll();
+}
+.section-title {
+  font-size: 6em;
+  margin-left: 2vw;
 }
 
 @keyframes square-left-projects {

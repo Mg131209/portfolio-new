@@ -71,9 +71,11 @@ button:hover {
   background-color: var(--background-color);
   border-radius: 10px;
   width: 40vh;
+  max-width: 90vw;
   height: 50vh;
   padding: 20px;
   max-width: 100vw;
+  box-shadow: 0 0 10px white;
 }
 .left {
   margin-left: 10vw;
@@ -85,10 +87,9 @@ button:hover {
 .content-title {
   margin: 0;
   font-size: 3em;
-  padding-left: 5vw;
 }
 .content li {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .back-button {
   margin: 5vh;
